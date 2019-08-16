@@ -1,0 +1,17 @@
+version: '3'
+services:
+  jupyterlab:
+    build: .
+    # image: jupyter/datascience-notebook:latest
+    user: root
+    environment:
+      NB_UID: 1000
+      NB_GID: 100
+      GRANT_SUDO: "yes"
+    volumes:
+       - "./work:/home/jovyan"
+    privileged: true
+    ports:
+      - "8888:8888"
+    restart: unless-stopped
+    command: start.sh jupyter lab --NotebookApp.token='sha1:594775d41f53:53082932029040a9d736784d164df7b744d7a4d0'

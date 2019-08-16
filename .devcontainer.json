@@ -1,0 +1,35 @@
+// See https://aka.ms/vscode-remote/devcontainer.json for format details or
+// https://aka.ms/vscode-dev-containers/definitions for sample configurations.
+{
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "jupyterlab",
+	"workspaceFolder": "/",
+	"extensions": [
+		"ms-python.python",
+		"donjayamanne.jupyter",
+		"formulahendry.auto-close-tag",
+		"formulahendry.auto-rename-tag",
+		"coenraads.bracket-pair-colorizer",
+		"dbaeumer.vscode-eslint",
+		"msjsdiag.debugger-for-chrome",
+		"ms-azuretools.vscode-docker",
+		"donjayamanne.githistory",
+		"huizhou.githd",
+		"eamodio.gitlens",
+		"oderwat.indent-rainbow",
+		"ms-ceintl.vscode-language-pack-ja",
+		"ibm.output-colorizer",
+		"ryu1kn.partial-diff",
+		"ionutvmi.path-autocomplete",
+		"esbenp.prettier-vscode",
+		"wallabyjs.quokka-vscode",
+		"mechatroner.rainbow-csv",
+		"ms-vscode-remote.remote-containers",
+		"humao.rest-client",
+		"shan.code-settings-sync",
+		"shardulm94.trailing-spaces",
+		"octref.vetur",
+		"vscode-icons-team.vscode-icons",
+		"wakatime.vscode-wakatime"
+	]
+}
