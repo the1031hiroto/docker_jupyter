@@ -1,0 +1,11 @@
+
+work/.cache/
+work/.config/
+work/.ipython/
+work/.jupyter/
+work/.local/
+work/.quokka/
+work/.vscode-server/
+
+!work/img/*.png
+!work/img/*.jpg
